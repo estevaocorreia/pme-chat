@@ -20,15 +20,15 @@ export const Header = () => {
             <a href="#features" className="text-foreground hover:text-primary transition-colors">
               Recursos
             </a>
-            <a href="#about" className="text-foreground hover:text-primary transition-colors">
+            {/* <a href="#about" className="text-foreground hover:text-primary transition-colors">
               Sobre
             </a>
             <a href="#contact" className="text-foreground hover:text-primary transition-colors">
               Contato
-            </a>
+            </a> */}
           </nav>
 
-          <div className="flex items-center space-x-4">
+          {/* <div className="flex items-center space-x-4">
             <Button 
               variant="ghost" 
               className="hidden sm:inline-flex text-primary hover:bg-primary/10"
@@ -45,7 +45,7 @@ export const Header = () => {
             >
               <Menu className="h-5 w-5" />
             </Button>
-          </div>
+          </div> */}
         </div>
       </div>
     </header>
