@@ -27,7 +27,7 @@ export const ChatModal = ({ isOpen, onClose }: ChatModalProps) => {
   const [messages, setMessages] = useState<Message[]>([
     {
       id: "1",
-      text: "Olá! Sou o assistente PME. Como posso ajudá-lo hoje?",
+      text: "Olá! Como posso ajudá-lo hoje?",
       isUser: false,
       timestamp: new Date(),
     },
@@ -118,7 +118,7 @@ export const ChatModal = ({ isOpen, onClose }: ChatModalProps) => {
     <Dialog open={isOpen} onOpenChange={onClose}>
       <DialogContent className="sm:max-w-md h-[600px] flex flex-col">
         <DialogHeader className="flex flex-row items-center justify-between">
-          <DialogTitle className="gradient-text">Chat PME</DialogTitle>
+          <DialogTitle className="gradient-text">SIGE CHAT</DialogTitle>
           <Button variant="ghost" size="icon" onClick={onClose} className="h-6 w-6">
             {/* <X className="h-4 w-4" /> */}
           </Button>
@@ -133,7 +133,7 @@ export const ChatModal = ({ isOpen, onClose }: ChatModalProps) => {
               >
                 {!message.isUser && (
                   <img
-                    src="https://w7.pngwing.com/pngs/695/247/png-transparent-chatbot-logo-robotics-robot-electronics-leaf-logo.png"
+                    src="https://cdn.prod.website-files.com/625817c1528a47fcf91345e8/6358f67b43648d9fdd8e9199_5.svg"
                     alt="Bot"
                     className="w-8 h-8 rounded-full"
                   />
@@ -161,7 +161,7 @@ export const ChatModal = ({ isOpen, onClose }: ChatModalProps) => {
             {isLoading && (
               <div className="flex items-start gap-2 justify-start">
                 <img
-                  src="https://w7.pngwing.com/pngs/695/247/png-transparent-chatbot-logo-robotics-robot-electronics-leaf-logo.png"
+                  src="https://cdn.prod.website-files.com/625817c1528a47fcf91345e8/6358f67b43648d9fdd8e9199_5.svg"
                   alt="Bot"
                   className="w-8 h-8 rounded-full"
                 />

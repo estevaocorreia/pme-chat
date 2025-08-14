@@ -13,7 +13,7 @@ export const HeroSection = () => {
       <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="animate-fade-in-up">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            <span className="gradient-text">PME Chat</span>
+            <span className="gradient-text">SIGE Chat</span>
             <br />
             <span className="text-foreground">Inteligente</span>
           </h1>
@@ -57,7 +57,7 @@ export const HeroSection = () => {
             <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center mb-4 mx-auto">
               <Users className="h-6 w-6 text-primary-foreground" />
             </div>
-            <h3 className="text-xl font-semibold mb-3">Especializado em PME</h3>
+            <h3 className="text-xl font-semibold mb-3">Especializado em SIGE</h3>
             <p className="text-muted-foreground">
               Conhecimento específico para desafios de pequenas e médias empresas.
             </p>

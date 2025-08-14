@@ -10,7 +10,7 @@ export const Header = () => {
             <div className="w-10 h-10 bg-gradient-primary rounded-lg flex items-center justify-center">
               <MessageCircle className="h-6 w-6 text-primary-foreground" />
             </div>
-            <span className="text-2xl font-bold gradient-text">PME Chat</span>
+            <span className="text-2xl font-bold gradient-text">SIGE Chat</span>
           </div>
 
           <nav className="hidden md:flex items-center space-x-8">
